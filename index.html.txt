@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lekhadarshi & Associates | Chartered Accountants</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container nav">
+        <h2>Lekhadarshi & Associates</h2>
+        <div>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <h1>Trusted Chartered Accountants in India</h1>
+        <p>Taxation • GST • Audit • Compliance • Advisory</p>
+        <a href="#contact" class="btn">Book Consultation</a>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>
+            Lekhadarshi & Associates is a professional Chartered Accountancy firm
+            providing end-to-end financial, taxation and compliance solutions
+            to startups, SMEs and individuals across India.
+        </p>
+    </div>
+</section>
+
+<section id="services" class="section grey">
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="grid">
+            <div class="card">Income Tax Filing</div>
+            <div class="card">GST Registration & Filing</div>
+            <div class="card">Company Incorporation</div>
+            <div class="card">Audit & Assurance</div>
+            <div class="card">Accounting & Bookkeeping</div>
+            <div class="card">ROC Compliance</div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="container">
+        <h2>Contact Us</h2>
+
+        <form action="https://formsubmit.co/digisign615@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+            <p>Email: digisign615@gmail</p>
+            <p>Phone: +91-8892250689</p>
+        </div>
+
+        <a class="whatsapp" 
+           href="https://wa.me/918892250689" 
+           target="_blank">
+           Chat on WhatsApp
+        </a>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Lekhadarshi & Associates | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
