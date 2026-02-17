@@ -26,6 +26,10 @@ header {
     align-items: center;
 }
 
+.logo {
+    line-height: 1.2;
+}
+
 .nav a {
     color: white;
     text-decoration: none;
@@ -107,8 +111,8 @@ footer {
 }
 
 .tagline {
-    font-size: 14px;
-    font-weight: 300;
-    opacity: 0.8;
-    margin-top: 4px;
+    display: block;
+    font-size: 13px;
+    margin-top: 3px;
+    opacity: 0.85;
 }
