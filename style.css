@@ -81,6 +81,8 @@ input, textarea {
     padding: 12px;
     cursor: pointer;
     border-radius: 5px;
+    display: inline-block;
+    margin-top: 25px;
 }
 
 .whatsapp {
