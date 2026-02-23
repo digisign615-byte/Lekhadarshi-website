@@ -14,10 +14,41 @@ body {
     margin: auto;
 }
 
-header {
-    background: #0a1f44;
-    color: white;
-    padding: 15px 0;
+/* Sticky Header */
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #ffffff;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Header Container */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+}
+
+/* Brand Section (Logo + Text) */
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Brand Text */
+.brand-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brand-text h1 {
+    margin: 0;
+    font-size: 26px;
 }
 
 .nav {
@@ -26,11 +57,11 @@ header {
     align-items: center;
 }
 
+
+/* Logo */
 .logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;  
+    height: 70px;   /* Adjust size if needed */
+    width: auto;
 }
 
 .logo h2 {
@@ -39,15 +70,17 @@ header {
 }
 
 .tagline {
-    font-size: 12px;
-    margin-top: 2px;
-    opacity: 0.85;
+    margin: 4px 0 0 0;
+    font-size: 14px;
+    color: #555;
 }
 
+/* Navigation */
 .nav a {
-    color: white;
+    margin-left: 25px;
     text-decoration: none;
-    margin-left: 20px;
+    font-weight: 500;
+    color: #333;
 }
 
 .hero {
